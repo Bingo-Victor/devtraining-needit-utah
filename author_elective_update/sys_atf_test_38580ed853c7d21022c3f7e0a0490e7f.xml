@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="DELETE">
+        <active>true</active>
+        <copied_from/>
+        <description>Create a user, insert a record, verify all mandatory fields have values, log results
+Test generated from template. To complete this test do the following:
+1. Pick a correct user to impersonate, a user with the right roles.
+2. Opens a new form in this table
+3. Edit the Set Field Values step to supply values for all fields that need them.
+4. Validates field values on the current form.
+5. Edit the mandatory, non mandatory, read only, non read only, visible and non visible fields.
+6. Edit the visible, not visible fields of the form.
+7. Clicks a UI action on the current form
+8. Submits the current form.
+</description>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
+        <fail_on_server_error>true</fail_on_server_error>
+        <name>Business Rule Test - NeedIt</name>
+        <parameters/>
+        <remember/>
+        <sn_atf_tg_generated>false</sn_atf_tg_generated>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-08 08:21:31</sys_created_on>
+        <sys_id>38580ed853c7d21022c3f7e0a0490e7f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Business Rule Test - NeedIt</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_atf_test_38580ed853c7d21022c3f7e0a0490e7f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-08 08:25:51</sys_updated_on>
+    </sys_atf_test>
+    <sys_variable_value action="DELETE" query="document_key=38580ed853c7d21022c3f7e0a0490e7f"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>4aad8d8193829254611eddd548373c3c</instance_id>
+        <instance_name>dev291344</instance_name>
+        <name>sys_atf_test_38580ed853c7d21022c3f7e0a0490e7f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test"><sys_atf_test action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Create a user, insert a record, verify all mandatory fields have values, log results
+Test generated from template. To complete this test do the following:
+1. Pick a correct user to impersonate, a user with the right roles.
+2. Opens a new form in this table
+3. Edit the Set Field Values step to supply values for all fields that need them.
+4. Validates field values on the current form.
+5. Edit the mandatory, non mandatory, read only, non read only, visible and non visible fields.
+6. Edit the visible, not visible fields of the form.
+7. Clicks a UI action on the current form
+8. Submits the current form.
+</description><enable_parameterized_testing>false</enable_parameterized_testing><fail_on_server_error>true</fail_on_server_error><name>Business Rule Test - NeedIt</name><parameters/><remember/><sn_atf_tg_generated>false</sn_atf_tg_generated><sys_class_name>sys_atf_test</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-08 08:21:31</sys_created_on><sys_id>38580ed853c7d21022c3f7e0a0490e7f</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Business Rule Test - NeedIt</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_atf_test_38580ed853c7d21022c3f7e0a0490e7f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-08 08:25:51</sys_updated_on></sys_atf_test><sys_variable_value action="delete_multiple" query="document_key=38580ed853c7d21022c3f7e0a0490e7f"/></record_update>]]></payload>
+        <payload_hash>-881671985</payload_hash>
+        <record_name>Business Rule Test - NeedIt</record_name>
+        <reverted_from/>
+        <source>f655945e5366161022c3f7e0a0490e3d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-08 08:25:51</sys_created_on>
+        <sys_id>2359ce1c53c7d21022c3f7e0a0490e05</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19445051f290000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-08 08:25:51</sys_updated_on>
+        <type>Test</type>
+        <update_guid>2759ce1c76c7d21065ccd7c39b3b4f04</update_guid>
+        <update_guid_history>2759ce1c76c7d21065ccd7c39b3b4f04:-881671985,c8680ed8e9c7d2106df4c3c224a56187:-1786615489</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-08 08:26:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_test">sys_atf_test</sys_db_object>
+        <sys_id>76078eb0213d49b19c95faade6e9a4e1</sys_id>
+        <sys_metadata>38580ed853c7d21022c3f7e0a0490e7f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Business Rule Test - NeedIt</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_atf_test_38580ed853c7d21022c3f7e0a0490e7f</sys_update_name>
+        <sys_update_version display_value="sys_atf_test_38580ed853c7d21022c3f7e0a0490e7f">2359ce1c53c7d21022c3f7e0a0490e05</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-08 08:26:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
